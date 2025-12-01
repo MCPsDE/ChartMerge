@@ -8,18 +8,20 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "-ID:/VSCODE/SDL_lib/include",
+                "-ID:/pyvscode/GithubPrograms/ChartMerge/include",
                 "-LD:/VSCODE/SDL_lib/lib",
-                "${file}",
+                "ChartMerge.cpp",
+                "src/EventHandler.cpp",
+                "src/Renderer.cpp",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "ChartMerge.exe",
                 "-lSDL3",
                 "-lmingw32",
                 "-mwindows"
             ],
             "group": {
                 "kind": "build",
-                "isDefault": false
+                "isDefault": true
             },
             "problemMatcher": [
                 "$gcc"
@@ -32,18 +34,20 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "-ID:/VSCODE/SDL_lib/include",
+                "-ID:/pyvscode/GithubPrograms/ChartMerge/include",
                 "-LD:/VSCODE/SDL_lib/lib",
-                "${file}",
+                "ChartMerge.cpp",
+                "src/EventHandler.cpp",
+                "src/Renderer.cpp",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "ChartMerge.exe",
                 "-lSDL3",
                 "-lmingw32",
                 "-mwindows"
             ],
             "group": {
                 "kind": "build",
-                "isDefault": true
+                "isDefault": false
             },
             "problemMatcher": [
                 "$gcc"
@@ -76,11 +80,13 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "-ID:/VSCODE/SDL_lib/include",
+                "-ID:/pyvscode/GithubPrograms/ChartMerge/include",
                 "-LD:/VSCODE/SDL_lib/lib",
-                "${file}",
+                "ChartMerge.cpp",
+                "src/EventHandler.cpp",
+                "src/Renderer.cpp",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "ChartMerge.exe",
                 "-lSDL3",
                 "-lmingw32",
                 "-mwindows"
@@ -100,11 +106,13 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "-ID:/VSCODE/SDL_lib/include",
+                "-ID:/pyvscode/GithubPrograms/ChartMerge/include",
                 "-LD:/VSCODE/SDL_lib/lib",
-                "${file}",
+                "ChartMerge.cpp",
+                "src/EventHandler.cpp",
+                "src/Renderer.cpp",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "ChartMerge.exe",
                 "-lSDL3",
                 "-lmingw32",
                 "-mwindows"

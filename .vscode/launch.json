@@ -2,10 +2,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug SDL3 with g++",
+            "name": "Debug ChartMerge",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/${fileBasenameNoExtension}.exe",
+            "program": "${workspaceFolder}/ChartMerge.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -21,27 +21,6 @@
                 }
             ],
             "preLaunchTask": "build with g++"
-        },
-        {
-            "name": "Debug SDL3 with gcc",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/${fileBasenameNoExtension}.exe",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "miDebuggerPath": "C:/msys64/mingw64/bin/gdb.exe",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                }
-            ],
-            "preLaunchTask": "build with gcc"
         }
     ]
 }
