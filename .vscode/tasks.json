@@ -10,18 +10,16 @@
                 "-g",
                 "-ID:/pyvscode/GithubPrograms/ChartMerge/include",
                 "-LD:/VSCODE/SDL_lib/lib",
-                "ChartMerge.cpp",
-                "src/EventHandler.cpp",
-                "src/Renderer.cpp",
+                "${file}",
                 "-o",
-                "ChartMerge.exe",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "-lSDL3",
                 "-lmingw32",
                 "-mwindows"
             ],
             "group": {
                 "kind": "build",
-                "isDefault": true
+                "isDefault": false
             },
             "problemMatcher": [
                 "$gcc"
@@ -36,11 +34,9 @@
                 "-g",
                 "-ID:/pyvscode/GithubPrograms/ChartMerge/include",
                 "-LD:/VSCODE/SDL_lib/lib",
-                "ChartMerge.cpp",
-                "src/EventHandler.cpp",
-                "src/Renderer.cpp",
+                "${file}",
                 "-o",
-                "ChartMerge.exe",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "-lSDL3",
                 "-lmingw32",
                 "-mwindows"
@@ -82,11 +78,9 @@
                 "-g",
                 "-ID:/pyvscode/GithubPrograms/ChartMerge/include",
                 "-LD:/VSCODE/SDL_lib/lib",
-                "ChartMerge.cpp",
-                "src/EventHandler.cpp",
-                "src/Renderer.cpp",
+                "${file}",
                 "-o",
-                "ChartMerge.exe",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "-lSDL3",
                 "-lmingw32",
                 "-mwindows"
@@ -108,18 +102,16 @@
                 "-g",
                 "-ID:/pyvscode/GithubPrograms/ChartMerge/include",
                 "-LD:/VSCODE/SDL_lib/lib",
-                "ChartMerge.cpp",
-                "src/EventHandler.cpp",
-                "src/Renderer.cpp",
+                "${file}",
                 "-o",
-                "ChartMerge.exe",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
                 "-lSDL3",
                 "-lmingw32",
                 "-mwindows"
             ],
             "group": {
                 "kind": "build",
-                "isDefault": true
+                "isDefault": false
             },
             "problemMatcher": [
                 "$gcc"
